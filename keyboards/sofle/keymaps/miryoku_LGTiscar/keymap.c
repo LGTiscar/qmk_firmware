@@ -25,15 +25,15 @@ const uint16_t PROGMEM llaves_cer[] = {KC_I, KC_O, COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(parent_ab, KC_LPRN),
-    COMBO(parent_cer, KC_RPRN)),
+    COMBO(parent_cer, KC_RPRN),
 };
 combo_t key_combos[] = {
     COMBO(corch_ab, KC_LBRC),
-    COMBO(corch_cer, KC_RBRC)),
+    COMBO(corch_cer, KC_RBRC),
 };
 combo_t key_combos[] = {
     COMBO(llaves_ab, KC_LCBR),
-    COMBO(llaves_cer, KC_RCBR)),
+    COMBO(llaves_cer, KC_RCBR),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
